@@ -19,3 +19,6 @@ Route::get('signup','UsersController@create')->name('signup');
 
 /*用户状态操作 登录， 退出等*/
 Route::get('login', 'SessionsController@create')->name('login');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
