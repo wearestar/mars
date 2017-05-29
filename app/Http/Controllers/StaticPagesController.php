@@ -9,6 +9,6 @@ class StaticPagesController extends Controller
     // 首页展示页面
     public function home()
     {
-        return '静态页面';
+        return view('layouts.default');
     }
 }
