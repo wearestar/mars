@@ -1,7 +1,8 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
+    "name": "mars",
+    "description": "We are start! We are mars.",
     "keywords": ["framework", "laravel"],
+    "version": "1.0.0",
     "license": "MIT",
     "type": "project",
     "require": {
